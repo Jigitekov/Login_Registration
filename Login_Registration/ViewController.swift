@@ -20,7 +20,8 @@ class ViewController: UIViewController, UITextFieldDelegate, RegistrationDelegat
 
     var users: [User] = [
         User(userName: "Raiymbek", password: "qwerty", fullName: "Raiymbek Jigitekov", email: "jrayimbek04@mgail.com", phone: 8777777777),
-        User(userName: "Admin", password: "admin", fullName: "AdminAdmin", email: "admin@admin", phone: 8777545563)
+        User(userName: "Admin", password: "admin", fullName: "AdminAdmin", email: "admin@admin", phone: 8777545563),
+        User(userName: "KaNa", password: "123", fullName: "Kana", email: "Kana@gmail.com", phone: 87000007394)
     ]
     
     @IBOutlet weak var labelMessage: UILabel!
